@@ -1,19 +1,16 @@
 //
-//  main.m
+//  yConst.m
 //  YUScreentPoperDemo
 //
 //  Created by yxy on 14/12/8.
 //  Copyright (c) 2014年 XIAYUN.YE. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "yConst.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@implementation yConst
+
+@end
 
 // 版权属于原作者
 // http://code4app.com (cn) http://code4app.net (en)

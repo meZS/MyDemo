@@ -11,10 +11,20 @@
 		9AC9601B1A353E7A00AC648D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9601A1A353E7A00AC648D /* AppDelegate.m */; };
 		9AC9601E1A353E7A00AC648D /* YUScreentPoperDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9601C1A353E7A00AC648D /* YUScreentPoperDemo.xcdatamodeld */; };
 		9AC960211A353E7A00AC648D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960201A353E7A00AC648D /* ViewController.m */; };
-		9AC960241A353E7A00AC648D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC960221A353E7A00AC648D /* Main.storyboard */; };
 		9AC960261A353E7A00AC648D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC960251A353E7A00AC648D /* Images.xcassets */; };
 		9AC960291A353E7A00AC648D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC960271A353E7A00AC648D /* LaunchScreen.xib */; };
 		9AC960351A353E7A00AC648D /* YUScreentPoperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960341A353E7A00AC648D /* YUScreentPoperDemoTests.m */; };
+		9AC960491A353F7300AC648D /* UIWindow+YUBottomPoper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960401A353F7300AC648D /* UIWindow+YUBottomPoper.m */; };
+		9AC9604A1A353F7300AC648D /* YUBottomPopSelctModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960421A353F7300AC648D /* YUBottomPopSelctModel.m */; };
+		9AC9604B1A353F7300AC648D /* YUBottomPopSelctView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960441A353F7300AC648D /* YUBottomPopSelctView.m */; };
+		9AC9604C1A353F7300AC648D /* YUDarkGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960461A353F7300AC648D /* YUDarkGlassView.m */; };
+		9AC960581A3540D100AC648D /* YUDIVView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960571A3540D100AC648D /* YUDIVView.m */; };
+		9AC9605B1A35412800AC648D /* UIColor+YUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9605A1A35412800AC648D /* UIColor+YUColor.m */; };
+		9AC9605E1A35415900AC648D /* UIView+YUStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9605D1A35415900AC648D /* UIView+YUStyle.m */; };
+		9AC960651A35425800AC648D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC960601A35425800AC648D /* FontAwesome.ttf */; };
+		9AC960661A35425800AC648D /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960621A35425800AC648D /* NSString+FontAwesome.m */; };
+		9AC960671A35425800AC648D /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960641A35425800AC648D /* UIButton+Bootstrap.m */; };
+		9AC9606A1A35446D00AC648D /* yConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC960691A35446D00AC648D /* yConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +46,32 @@
 		9AC9601D1A353E7A00AC648D /* YUScreentPoperDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YUScreentPoperDemo.xcdatamodel; sourceTree = "<group>"; };
 		9AC9601F1A353E7A00AC648D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9AC960201A353E7A00AC648D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9AC960231A353E7A00AC648D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AC960251A353E7A00AC648D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AC960281A353E7A00AC648D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9AC9602E1A353E7A00AC648D /* YUScreentPoperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUScreentPoperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC960331A353E7A00AC648D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC960341A353E7A00AC648D /* YUScreentPoperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUScreentPoperDemoTests.m; sourceTree = "<group>"; };
+		9AC9603F1A353F7300AC648D /* UIWindow+YUBottomPoper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+YUBottomPoper.h"; sourceTree = "<group>"; };
+		9AC960401A353F7300AC648D /* UIWindow+YUBottomPoper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+YUBottomPoper.m"; sourceTree = "<group>"; };
+		9AC960411A353F7300AC648D /* YUBottomPopSelctModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUBottomPopSelctModel.h; sourceTree = "<group>"; };
+		9AC960421A353F7300AC648D /* YUBottomPopSelctModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUBottomPopSelctModel.m; sourceTree = "<group>"; };
+		9AC960431A353F7300AC648D /* YUBottomPopSelctView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUBottomPopSelctView.h; sourceTree = "<group>"; };
+		9AC960441A353F7300AC648D /* YUBottomPopSelctView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUBottomPopSelctView.m; sourceTree = "<group>"; };
+		9AC960451A353F7300AC648D /* YUDarkGlassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUDarkGlassView.h; sourceTree = "<group>"; };
+		9AC960461A353F7300AC648D /* YUDarkGlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUDarkGlassView.m; sourceTree = "<group>"; };
+		9AC960561A3540D100AC648D /* YUDIVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUDIVView.h; sourceTree = "<group>"; };
+		9AC960571A3540D100AC648D /* YUDIVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUDIVView.m; sourceTree = "<group>"; };
+		9AC960591A35412800AC648D /* UIColor+YUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YUColor.h"; sourceTree = "<group>"; };
+		9AC9605A1A35412800AC648D /* UIColor+YUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YUColor.m"; sourceTree = "<group>"; };
+		9AC9605C1A35415900AC648D /* UIView+YUStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YUStyle.h"; sourceTree = "<group>"; };
+		9AC9605D1A35415900AC648D /* UIView+YUStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YUStyle.m"; sourceTree = "<group>"; };
+		9AC960601A35425800AC648D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		9AC960611A35425800AC648D /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		9AC960621A35425800AC648D /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		9AC960631A35425800AC648D /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		9AC960641A35425800AC648D /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+		9AC960681A35446D00AC648D /* yConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yConst.h; sourceTree = "<group>"; };
+		9AC960691A35446D00AC648D /* yConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +113,11 @@
 		9AC960141A353E7A00AC648D /* YUScreentPoperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9AC9603E1A353F7300AC648D /* YUScreentPoper */,
 				9AC960191A353E7A00AC648D /* AppDelegate.h */,
 				9AC9601A1A353E7A00AC648D /* AppDelegate.m */,
 				9AC9601F1A353E7A00AC648D /* ViewController.h */,
 				9AC960201A353E7A00AC648D /* ViewController.m */,
-				9AC960221A353E7A00AC648D /* Main.storyboard */,
 				9AC960251A353E7A00AC648D /* Images.xcassets */,
 				9AC960271A353E7A00AC648D /* LaunchScreen.xib */,
 				9AC9601C1A353E7A00AC648D /* YUScreentPoperDemo.xcdatamodeld */,
@@ -120,6 +150,50 @@
 				9AC960331A353E7A00AC648D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AC9603E1A353F7300AC648D /* YUScreentPoper */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9605F1A35425800AC648D /* Button */,
+				9AC9605C1A35415900AC648D /* UIView+YUStyle.h */,
+				9AC9605D1A35415900AC648D /* UIView+YUStyle.m */,
+				9AC960591A35412800AC648D /* UIColor+YUColor.h */,
+				9AC9605A1A35412800AC648D /* UIColor+YUColor.m */,
+				9AC960551A3540D100AC648D /* DIVVIEW */,
+				9AC9603F1A353F7300AC648D /* UIWindow+YUBottomPoper.h */,
+				9AC960401A353F7300AC648D /* UIWindow+YUBottomPoper.m */,
+				9AC960411A353F7300AC648D /* YUBottomPopSelctModel.h */,
+				9AC960421A353F7300AC648D /* YUBottomPopSelctModel.m */,
+				9AC960431A353F7300AC648D /* YUBottomPopSelctView.h */,
+				9AC960441A353F7300AC648D /* YUBottomPopSelctView.m */,
+				9AC960451A353F7300AC648D /* YUDarkGlassView.h */,
+				9AC960461A353F7300AC648D /* YUDarkGlassView.m */,
+				9AC960681A35446D00AC648D /* yConst.h */,
+				9AC960691A35446D00AC648D /* yConst.m */,
+			);
+			path = YUScreentPoper;
+			sourceTree = "<group>";
+		};
+		9AC960551A3540D100AC648D /* DIVVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				9AC960561A3540D100AC648D /* YUDIVView.h */,
+				9AC960571A3540D100AC648D /* YUDIVView.m */,
+			);
+			path = DIVVIEW;
+			sourceTree = "<group>";
+		};
+		9AC9605F1A35425800AC648D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				9AC960601A35425800AC648D /* FontAwesome.ttf */,
+				9AC960611A35425800AC648D /* NSString+FontAwesome.h */,
+				9AC960621A35425800AC648D /* NSString+FontAwesome.m */,
+				9AC960631A35425800AC648D /* UIButton+Bootstrap.h */,
+				9AC960641A35425800AC648D /* UIButton+Bootstrap.m */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC960241A353E7A00AC648D /* Main.storyboard in Resources */,
 				9AC960291A353E7A00AC648D /* LaunchScreen.xib in Resources */,
 				9AC960261A353E7A00AC648D /* Images.xcassets in Resources */,
+				9AC960651A35425800AC648D /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +297,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC9601B1A353E7A00AC648D /* AppDelegate.m in Sources */,
+				9AC9604C1A353F7300AC648D /* YUDarkGlassView.m in Sources */,
+				9AC960671A35425800AC648D /* UIButton+Bootstrap.m in Sources */,
+				9AC9606A1A35446D00AC648D /* yConst.m in Sources */,
+				9AC9605E1A35415900AC648D /* UIView+YUStyle.m in Sources */,
+				9AC9605B1A35412800AC648D /* UIColor+YUColor.m in Sources */,
+				9AC960581A3540D100AC648D /* YUDIVView.m in Sources */,
+				9AC9604B1A353F7300AC648D /* YUBottomPopSelctView.m in Sources */,
+				9AC960661A35425800AC648D /* NSString+FontAwesome.m in Sources */,
+				9AC960491A353F7300AC648D /* UIWindow+YUBottomPoper.m in Sources */,
+				9AC9604A1A353F7300AC648D /* YUBottomPopSelctModel.m in Sources */,
 				9AC960181A353E7A00AC648D /* main.m in Sources */,
 				9AC960211A353E7A00AC648D /* ViewController.m in Sources */,
 				9AC9601E1A353E7A00AC648D /* YUScreentPoperDemo.xcdatamodeld in Sources */,
@@ -248,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9AC960221A353E7A00AC648D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AC960231A353E7A00AC648D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9AC960271A353E7A00AC648D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YUScreentPoperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YUScreentPoperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +494,7 @@
 				9AC9603A1A353E7A00AC648D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC9603B1A353E7A00AC648D /* Build configuration list for PBXNativeTarget "YUScreentPoperDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +503,7 @@
 				9AC9603D1A353E7A00AC648D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
